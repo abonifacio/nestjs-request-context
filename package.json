@@ -13,6 +13,9 @@
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "prepublishOnly": "npm test && npm run lint && npm run build"
   },
+  "files": [
+    "dist/*.{ts,js,map}"
+  ],
   "author": "Augusto Bonifacio",
   "license": "ISC",
   "peerDependencies": {
