@@ -27,3 +27,14 @@ export class SingletonService {
 
 }
 ```
+
+
+# Release Notes
+
+### 0.1.0
+
+Updated peer dependencies to `8.x`
+
+### 1.0.0
+
+Use `async_hooks` instead `asyncctx` as it's deprecated
