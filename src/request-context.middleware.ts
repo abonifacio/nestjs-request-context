@@ -5,7 +5,6 @@ import { RequestContext } from './request-context.model';
 @Injectable()
 export class RequestContextMiddleware implements NestMiddleware<Request, Response> {
   use(req: Request, res: Response, next: () => void) {
-    RequestContext.currentContext = new RequestContext(req, res);
-    next();
+    RequestContext.cls.run(new RequestContext(req, res), next);
   }
 }

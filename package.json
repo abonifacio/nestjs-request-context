@@ -47,7 +47,5 @@
     "type": "git",
     "url": "https://github.com/abonifacio/nestjs-request-context.git"
   },
-  "dependencies": {
-    "asyncctx": "^2.0.13"
-  }
+  "dependencies": {}
 }
