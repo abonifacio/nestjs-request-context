@@ -19,8 +19,8 @@
   "author": "Augusto Bonifacio",
   "license": "ISC",
   "peerDependencies": {
-    "@nestjs/common": "^8.1.1",
-    "@nestjs/platform-express": "^8.1.1",
+    "@nestjs/common": "^9.0.5",
+    "@nestjs/platform-express": "^9.0.5",
     "express": "^4.17.1"
   },
   "devDependencies": {

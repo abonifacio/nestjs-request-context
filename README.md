@@ -38,3 +38,7 @@ Updated peer dependencies to `8.x`
 ### 1.0.0
 
 Use `async_hooks` instead `asyncctx` as it's deprecated
+
+### 2.0.1
+
+Updated NestJs peer dependencies to `9.x`
