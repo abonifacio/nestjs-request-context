@@ -1,11 +1,11 @@
 import { Injectable, NestMiddleware } from '@nestjs/common';
-import { Request, Response } from 'express';
+import { MyRequest } from './test-context';
 
 @Injectable()
-export class TestMiddleware implements NestMiddleware<Request, Response> {
+export class TestMiddleware implements NestMiddleware<MyRequest> {
   count = 0;
-  use(req: Request, res: Response, next: () => void) {
-    (req as any).requestId = this.count;
+  use(req: MyRequest, res: any, next: () => void) {
+    req.requestId = this.count;
     this.count++;
     next();
   }

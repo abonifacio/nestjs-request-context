@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { RequestContext } from '../src';
+import { TestContext } from './test-context';
 
 @Injectable()
 export class TestService {
@@ -10,7 +10,6 @@ export class TestService {
   }
 
   getRequestId() {
-    const req: any = RequestContext.currentContext.req;
-    return req.requestId;
+    return TestContext.get().req.requestId;
   }
 }

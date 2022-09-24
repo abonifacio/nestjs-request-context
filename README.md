@@ -42,3 +42,8 @@ Use `async_hooks` instead `asyncctx` as it's deprecated
 ### 2.0.1
 
 Updated NestJs peer dependencies to `9.x`
+
+### 2.1.0
+
+- Removed express from peer dependencies
+- Added minimal generic support
