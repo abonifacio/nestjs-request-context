@@ -47,3 +47,7 @@ Updated NestJs peer dependencies to `9.x`
 
 - Removed express from peer dependencies
 - Added minimal generic support
+
+### 3.0.0
+
+Updated NestJs peer dependencies to `10.x`
