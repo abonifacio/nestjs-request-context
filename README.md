@@ -51,3 +51,7 @@ Updated NestJs peer dependencies to `9.x`
 ### 3.0.0
 
 Updated NestJs peer dependencies to `10.x`
+
+### 4.0.0
+
+Updated NestJs peer dependencies to `*`
